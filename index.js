@@ -10,7 +10,7 @@ function onChangePassword() {
 
 function login() {
     window.location.href = "register.html";
-}
+} 
 
 function register() {
     window.location.href = "register.html";
