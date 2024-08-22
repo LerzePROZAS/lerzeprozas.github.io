@@ -6,8 +6,8 @@ input[type="file"]{
 .label{
     padding: 20px 10px;
     width: 200px;
-    background-color:rgba(116, 219, 116, 0.467);
-    color: #101026;
+    background-color:rgba(255, 0, 128, 0.467);
+    color: #000000;
     text-transform: uppercase;
     display: block;
     margin-top: 10px;
