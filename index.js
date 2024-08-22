@@ -15,6 +15,9 @@ function login() {
 function register() {
     window.location.href = "register.html";
 }
+function register() {
+    window.location.href = "thanks.html";
+}
 
 function toggleEmailErrors() {
     const email = form.email().value;
@@ -28,7 +31,7 @@ function togglePasswordErrors() {
     form.passwordRequiredError().style.display = password ? "none" : "block";
 }
 
-function toggleButtonsDisable() {
+function toggleButtonsDisable() {  
     const emailValid = isEmailValid();
     form.recoverPasswordButton().disabled = !emailValid;
 
