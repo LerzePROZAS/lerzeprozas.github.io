@@ -1,3 +1,4 @@
-function validateEmail(email) {
-    return /\S+@\S+.\S+/.test(email);
-}
+
+function register() {
+    window.location.href = "obri.html";
+    }

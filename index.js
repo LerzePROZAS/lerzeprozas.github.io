@@ -18,7 +18,9 @@ function register() {
 function register() {
     window.location.href = "thanks.html";
 }
-
+function reg() {
+    window.location.href = "obri.html";
+    }
 function toggleEmailErrors() {
     const email = form.email().value;
     form.emailRequiredError().style.display = email ? "none" : "block";
@@ -60,3 +62,4 @@ const form = {
     passwordRequiredError: () => document.getElementById("password-required-error"),
     recoverPasswordButton: () => document.getElementById("recover-password-button"),
 }
+
