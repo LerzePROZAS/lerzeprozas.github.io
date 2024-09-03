@@ -5,7 +5,8 @@ function onChangeEmail() {
 
 function onChangePassword() {
     toggleButtonsDisable();
-    togglePasswordErrors();
+ 
+
 }
 
 function login() {
